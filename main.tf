@@ -5,11 +5,11 @@ terraform {
       version = ">= 2.26"
     }
   }
-  
+
   backend "azurerm" {
-    resource_group_name   = "terraform01"
-    storage_account_name  = "jangshinterraform"
-    container_name        = "terraform01"
+    resource_group_name   = "tstate"
+    storage_account_name  = "tstate13875"
+    container_name        = "tstate"
     key                   = "terraform.tfstate"
   }
   
